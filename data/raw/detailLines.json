@@ -1,0 +1,22 @@
+{
+    "guestCheckLineItemId": 9988776655,
+    "rvcNum": 123,
+    "dtlOtNum": 1,
+    "dtlOcNum": null,
+    "lineNum": 1,
+    "dtlId": 1,
+    "detailUTC": "2024-01-01T09:09:09",
+    "detailLcl": "2024-01-01T06:09:09",
+    "lastUpdateUTC": "2024-11-01T10:10:10",
+    "lastUpdateLcl": "2024-01-01T07:10:10",
+    "busDt": "2024-01-01",
+    "wsNum": 7,
+    "dspTtl": 119.9,
+    "dspQty": 1,
+    "aggTtl": 119.9,
+    "aggQty": 1,
+    "chkEmpId": 10454318,
+    "chkEmpNum": 81001,
+    "svcRndNum": 1,
+    "seatNum": 1
+}
