@@ -1,4 +1,4 @@
-# Para atividade o ambiente variavel
+# Para ativar o ambiente variavel
 
 ```
 .\.cb_lab\Scripts\Activate.ps1 
