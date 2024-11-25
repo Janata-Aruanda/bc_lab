@@ -1,3 +1,5 @@
+# Arquitetura da pipeline
+![](/img/arq.png)
 # Para ativar o ambiente variavel
 
 ```
