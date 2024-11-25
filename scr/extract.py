@@ -1,21 +1,21 @@
-from dotenv import load_dotenv
-import os
-import requests
+import pandas as pd
 
-# Carregar as variáveis do arquivo .env
-load_dotenv()
+# Carrega os dados do JSON
+data = pd.read_json('ERP.json')
 
-# Obter o file_id do .env
-file_id = os.getenv('id')
+# Normaliza os dados até o nível desejado
+guest_checks_row = pd.json_normalize(
+    data['guestChecks'],
+    max_level=1  
+)
+# Remove as colunas de campos aninhados, se ainda estiverem presentes
+guest_checks = guest_checks_row.drop(columns=['taxes', 'detailLines'])
 
-# Continuar com o restante do código
-download_url = f'https://drive.google.com/uc?export=download&id={file_id}'
+taxes_df = pd.json_normalize(
+    data=data['guestChecks'],
+    record_path='taxes',
+    meta=['guestCheckId']
+)
 
-session = requests.Session()
-response = session.get(download_url, stream=True)
-
-
-with open('./data/raw/ERP.json', 'wb') as f:
-    for chunk in response.iter_content(chunk_size=32768):
-        if chunk:
-            f.write(chunk)
+# Exibe as primeiras linhas do DataFrame
+print(guest_checks_df.head(1))
