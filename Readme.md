@@ -36,6 +36,10 @@ A arquitetura proposta para o segundo desafio foi desenvolvida com o objetivo de
 
 Armazenar as respostas das APIs no data lake não apenas garante a preservação e acessibilidade dos dados, mas também suporta a evolução contínua dos processos analíticos. Permite responder rapidamente às demandas de negócio.
 
+## Alterar campo na resposta da API
+
+Implicaria na quebra do pipeline de dados e na necessidade de atualização do schema. Como consequência, os scripts que acessam o campo anterior precisarão ser refatorados para utilizar o novo nome
+
 # Kanban
 Neste desafio, utilizei a metodologia ágil em conjunto com o Kanban, utilizando a plataforma Trello para organizar e gerenciar as demandas.
 
