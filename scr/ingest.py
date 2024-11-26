@@ -8,7 +8,7 @@ load_dotenv()
 # Obter o file_id do .env
 file_id = os.getenv('id')
 
-# Continuar com o restante do código
+# concatenar a url com id
 download_url = f'https://drive.google.com/uc?export=download&id={file_id}'
 
 session = requests.Session()
