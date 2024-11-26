@@ -49,13 +49,13 @@ def extract_mnitem(file_dir: str):
     df_mnitem = pd.DataFrame(mnitem_raw)
     return df_mnitem
 
-def normalizar(file_dir: str):
+def relacionar(file_dir: str):
     df_guest = extract_guest(file_dir)
     df_taxes = extract_taxes(file_dir)
     df_details = extract_details(file_dir)
     df_mnitem = extract_mnitem(file_dir)
 
-    # Normalização entre tabelas
+    # Relacionando entre tabelas
     df_taxes['guestCheckId'] = df_guest['guestCheckId']
     df_details['guestCheckId'] = df_guest['guestCheckId']
     df_mnitem['guestCheckLineItemId'] = df_details['guestCheckLineItemId']
@@ -74,7 +74,7 @@ if __name__ == "__main__":
     file_destino = "./data/silver"
 
     # Normaliza os dados
-    df_guest, df_taxes, df_details, df_mnitem = normalizar(file_directory)
+    df_guest, df_taxes, df_details, df_mnitem = relacionar(file_directory)
 
     # Salva os dados processados em arquivos CSV
     save_file(df_guest, df_taxes, df_details, df_mnitem, file_destino)
