@@ -39,7 +39,7 @@ Armazenar as respostas das APIs no data lake não apenas garante a preservação
 # Kanban
 Neste desafio, utilizei a metodologia ágil em conjunto com o Kanban, utilizando a plataforma Trello para organizar e gerenciar as demandas.
 
-![](/img/kaban.png)
+![](/img/kanban.png)
 
 
 ## Gestão de Fluxo de Atividade
