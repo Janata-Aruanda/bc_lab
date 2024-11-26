@@ -36,10 +36,15 @@ A arquitetura proposta para o segundo desafio foi desenvolvida com o objetivo de
 
 Armazenar as respostas das APIs no data lake não apenas garante a preservação e acessibilidade dos dados, mas também suporta a evolução contínua dos processos analíticos. Permite responder rapidamente às demandas de negócio.
 
+# Kanban
+Neste desafio, utilizei a metodologia ágil em conjunto com o Kanban, utilizando a plataforma Trello para organizar e gerenciar as demandas.
+
+![](/img/kaban.png)
+
 
 ## Gestão de Fluxo de Atividade
 
-Essa poc foi desenvolvida em etapas, seguindo uma gestão de fluxo para garantir a organização e o cumprimento dos prazos. Abaixo, o planejamento das atividades realizadas ao longo da semana
+Esse desafio foi desenvolvida em etapas, seguindo uma gestão de fluxo para garantir a organização e o cumprimento dos prazos. Abaixo, o planejamento das atividades realizadas ao longo da semana
 
 | Dia      | Atividade                                                                 |
 |----------|---------------------------------------------------------------------------|
