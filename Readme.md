@@ -3,11 +3,11 @@
 Este documento apresenta a solução para o Desafio de Engenharia de Dados proposto pela Coco Bambu em 2024. O desafio está dividido em duas etapas principais que simulam cenários reais enfrentados em uma rede de restaurantes.
 A solução foi desenvolvida com base em boas práticas de engenharia de dados, visando escalabilidade, eficiência e clareza no processamento dos dados, usando tecnologias open-source.
 
-#Objetivo
+# Objetivo
 
 O objetivo deste projeto é demonstrar habilidades em modelagem de dados, design de pipelines de ingestão e armazenamento, e construção de soluções resilientes para manipulação de grandes volumes de dados em um ecossistema corporativo. A proposta também inclui o planejamento e justificativa técnica para cada etapa do processo, com foco na criação de sistemas prontos para produção.
 
-##Desafio 
+## Desafio 
 
 Desafio 1: Transformação de dados provenientes de um endpoint de API ERP em um esquema estruturado que suporte operações relacionadas ao negócio.
 
@@ -32,7 +32,7 @@ A arquitetura proposta para o segundo desafio foi desenvolvida com o objetivo de
 
 ![](/img/Untitled-2024-06-28-1436.png)
 
-##Por que armazenar as respostas das APIs
+## Por que armazenar as respostas das APIs
 
 Armazenar as respostas das APIs no data lake não apenas garante a preservação e acessibilidade dos dados, mas também suporta a evolução contínua dos processos analíticos. Permite responder rapidamente às demandas de negócio.
 
