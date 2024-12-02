@@ -1,6 +1,6 @@
 # Introdução
 
-Este documento apresenta a solução para o Desafio de Engenharia de Dados proposto pela Coco Bambu em 2024. O desafio está dividido em duas etapas principais que simulam cenários reais enfrentados em uma rede de restaurantes.
+Este documento apresenta a solução para o Desafio de Engenharia de Dados . O desafio está dividido em duas etapas principais que simulam cenários reais enfrentados em uma rede de restaurantes.
 A solução foi desenvolvida com base em boas práticas de engenharia de dados, visando escalabilidade, eficiência e clareza no processamento dos dados, usando tecnologias open-source.
 
 # Objetivo
